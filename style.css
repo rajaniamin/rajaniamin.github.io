@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin: 0;
+    font-family: "Cabin", ;
+    font-size: 1rem;
+    font-weight: 400;
+    link-height:1.5;
+    color:blueviolet   ;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+/* header */
+.about-img{
+    margin-left: -100px;
+    right: -60px;
+   }
+   
+   .display-1{
+     font-size: 160px;
+     font-weight: 1000;
+   
+   }
+   
+   .position-absolute{
+     font-weight: 700;
+   
+   }
+   
+   .typed-cursor {
+     font-size: 45px;
+     color: #ffffff;
+   }
+   
+   .blue{
+     background-color: #08379d;
+     color: #ffffff;
+   }
+   .btn{
+     border: 2px solid rgb(29, 105, 247);
+   } 
+   .btn-white{
+     background-color: #ffffff;
+     border:2px solid #ffffff;
+   }
+   .btn-blue{
+     border: 2.4px solid #ffffff;
+     color: #ffffff;
+     border-radius: 20px;
+     margin:10px
+   }
+   @media (max-width: 700px) {
+     .about-img{
+       margin-left: 20px;
+       right: 0px;
+       top: 30px;
+      }
+   }
+
+   /* header */
+
+   /* nav */
+   /* .navbar-light {
+    display: none;
+  } */
+  
+  .navbar-light .navbar-nav .nav-link {
+    padding: 25px 10px;
+    color: #343a40;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover,
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #08379d;
+  }
+  
+  @media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding: 10px 0;
+    }
+  }
+
+  /* nav */
+
+
+  /*progress*/
+
+.progress {
+    border-radius: 10px;
+  }
+  
+  .progress .progress-bar {
+    width: 0px;
+    border-radius: 10px;
+    transition: 2s;
+    background-color: #08379d;
+  }
+    /*progress*/
+
+    /* edu*/
+.ex-me{
+    margin-top: 35px;
+  }
+   /* edu*/
+
+
+   /* project*/
+.service-h4{
+    padding-bottom: 30px;
+  }
+  
+  .service-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+  }
+  
+  .service-box{
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);  
+    margin-left: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .service-box:hover{
+    box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
+  
+  }
+  /* project*/
+
+  /* contact */
+  .contact-form .help-block ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  /* contact */
+  
