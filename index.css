@@ -13,7 +13,7 @@ body{
   font-weight: 700;
   padding-left: 25px;
 }
-#nav-bar{
+#nav-menu{
   display: flex;
   justify-content: space-between;
   position: sticky;
@@ -33,14 +33,14 @@ body{
   z-index: 2;
 }
 
-#nav-bar > div {
+#nav-menu > div {
   display: flex;
 vertical-align: middle;
 align-items: center;
 }
 
 
-#nav-bar > div > a {
+#nav-menu > div > a {
   padding: 6px 11px;
   font-size: 21px;
   margin: 4px 10px;
@@ -383,7 +383,7 @@ font-size:x-large;
     font-size: 25px;
   }
 
-#nav-bar>div{
+#nav-menu>div{
   display: none;
 }
 .openbtn{
@@ -417,7 +417,7 @@ background-color: white;
     right: 0;
     left: initial;
   }
-  #nav-bar > div {
+  #nav-menu > div {
   margin-left: auto;
     margin-right: auto;
 
