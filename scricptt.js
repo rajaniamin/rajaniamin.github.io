@@ -1,3 +1,7 @@
+// Cypress.on('uncaught:exception', (err, runnable) => {
+//   return false;
+// });
+
 let i=0;
 let txt="Java Backend Developer";
 let speed=75;
@@ -14,28 +18,28 @@ function typeWriter() {
     else {
       i = 0;
       document.getElementById("demo1").innerHTML = "";
-      document.getElementById("user-detail-name").style.color="#1151D1";
+      document.getElementById("user-detail-name").style.color="#000000";
       setTimeout(typeWriter, speed);
     }
   }
 
 
-  var myNav = document.getElementById('nav-bar');
+  var myNav = document.getElementById('nav-menu');
   var myNav2 = document.getElementById('main');
   window.onscroll = function () { 
       if ( document.documentElement.scrollTop >= 15 ) {
           myNav.classList.add("nav-colored");
           myNav2.classList.add("nav-colored");
-          // myNav.classList.remove("nav-transparent");
+         // myNav.classList.remove("nav-transparent");
       } 
       else {
-          // myNav.classList.add("nav-transparent");
+           myNav.classList.add("nav-transparent");
           myNav.classList.remove("nav-colored");
-          myNav2.classList.remove("nav-colored");
+        //  myNav2.classList.remove("nav-colored");
       }
   };
 
-  GitHubCalendar(".calendar", "manoharmeena123", {
+  GitHubCalendar(".calendar", "rajaniamin", {
     responsive: true,
     global_stats: false,
     tooltips: true,

@@ -78,7 +78,7 @@ display: none;
   justify-content: space-between;
   height: max-content;
   overflow: hidden;
-  color:rgb(36, 97, 195) ;
+  color:black;
 }
 #raj{
   font-size: 42px;
@@ -115,7 +115,7 @@ hr{
 }
 
 #demo {
-  color: rgb(36, 97, 195);
+  color: black;
   font-size: 50px;
   margin: 5% 0%;
 }
@@ -413,7 +413,7 @@ background-color: white;
  .name {
     display: none;
   }
-  #nav-bar>div{
+  #nav-menu>div{
     right: 0;
     left: initial;
   }
