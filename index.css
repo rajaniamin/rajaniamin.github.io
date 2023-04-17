@@ -7,7 +7,7 @@ body{
 #width {
   margin: 7%;
 }
-#name{
+#name1{
   color: black;
   font-size: 25px;
   font-weight: 700;
@@ -80,7 +80,7 @@ display: none;
   overflow: hidden;
   color:black;
 }
-#name2{
+#name{
   font-size: 42px;
 }
 
@@ -394,7 +394,7 @@ border: none;
 color: #080947;
 background-color: white;
 }
-#name {
+#name1 {
   display: block;
   right:0;
 }
@@ -410,7 +410,7 @@ background-color: white;
   #width {
     margin: 4%;
   }
- #name {
+ #name1 {
     display: none;
   }
   #nav-menu>div{
