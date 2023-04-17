@@ -25,7 +25,7 @@ body{
 }
 #resume-button-1 {
   border-radius: 8px;
-  border: 2px solid rgb(224, 224, 232);
+  border: none;
 }
 .nav-colored {
   background-color: rgb(182, 205, 243);
@@ -122,7 +122,7 @@ hr{
 
 #resume-button-2{
   background-color: white;
-  border: 1px solid black;
+  border: none;
   font-weight: bolder;
   font-size: larger;
  text-decoration: none;
@@ -136,7 +136,7 @@ hr{
   border-radius: 7px;
   color: white;
   cursor: pointer;
-  border: 1px solid white;
+  border: none;
 }
 #aboutt{
   justify-content: center;

@@ -4,7 +4,7 @@
 
 let i=0;
 let txt="Java Backend Developer";
-let speed=40;
+let speed=80;
 
 typeWriter();
 
