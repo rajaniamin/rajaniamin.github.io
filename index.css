@@ -3,7 +3,10 @@ body{
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
-
+a{
+  color: black;
+  text-decoration: none;
+}
 #width {
   margin: 7%;
 }
@@ -26,6 +29,7 @@ body{
 #resume-button-1 {
   border-radius: 8px;
   border: none;
+  background-color: white;
 }
 .nav-colored {
   background-color: rgb(182, 205, 243);
@@ -120,15 +124,13 @@ hr{
   margin: 5% 0%;
 }
 #resume-button-1{
-  background-color: rgb(36, 97, 195);
-  
   border: none;
   font-weight: bolder;
   font-size: larger;
- text-decoration: none;
+  text-decoration: none;
   border-radius: 6px;
-  padding: 2% 2%;
-  color: black;
+  padding: 1% 1%;
+  color: white;
 }
 #resume-button-2{
   background-color: rgb(36, 97, 195);
