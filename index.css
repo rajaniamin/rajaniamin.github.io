@@ -119,8 +119,19 @@ hr{
   font-size: 50px;
   margin: 5% 0%;
 }
-
+#resume-button-1{
+  background-color: rgb(36, 97, 195);
+  
+  border: none;
+  font-weight: bolder;
+  font-size: larger;
+ text-decoration: none;
+  border-radius: 6px;
+  padding: 2% 2%;
+  color: black;
+}
 #resume-button-2{
+  background-color: rgb(36, 97, 195);
   background-color: white;
   border: none;
   font-weight: bolder;
